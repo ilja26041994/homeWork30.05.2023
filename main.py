@@ -62,4 +62,5 @@ while True:
     if x1 == x2:
         break
 print(cnt)
+
 # не придумал тоже
