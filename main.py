@@ -51,5 +51,15 @@
 #     if result == 0:
 #         break
 # print(g)
-# 9.76 б не придумал
-# тоже
+# 9.76 б
+x = input('some word')
+result = len(x)
+cnt = result
+x2 = str('e')
+while True:
+    cnt -= 1
+    x1 = x.find('e')
+    if x1 == x2:
+        break
+print(cnt)
+# не придумал тоже
